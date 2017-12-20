@@ -21,6 +21,7 @@ run:
     pwd
     export GOPATH=/tmp/build/617e262f/hello-go
     cd hello-go/src/cognizant.com/codeblue
+    gilde up
     pwd
     cd ..
     cd ..
