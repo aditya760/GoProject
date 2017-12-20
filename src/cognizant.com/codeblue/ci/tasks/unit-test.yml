@@ -17,7 +17,7 @@ run:
   - -exc
   - |
     ls -ltr
-    export GOPATH=
+    export GOPATH=$HOME/hello-go
     cd hello-go/src/cognizant.com/codeblue
     glide up
     pwd
