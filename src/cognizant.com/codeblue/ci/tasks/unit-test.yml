@@ -17,11 +17,9 @@ run:
   - -exc
   - |
     ls -ltr
-    brew install glide
     go env
   
     cd hello-go/src/cognizant.com/codeblue
-    glide up
     pwd
     cd ..
     cd ..
