@@ -22,7 +22,7 @@ run:
     export GOPATH=/tmp/build/617e262f/hello-go
     go env
     cd hello-go/src/cognizant.com/codeblue
-    sudo apt-get install glide
+    apt-get install glide
     pwd
     cd ..
     cd ..
