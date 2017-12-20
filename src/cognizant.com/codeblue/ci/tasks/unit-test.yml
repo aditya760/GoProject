@@ -18,7 +18,8 @@ run:
   - |
     ls -ltr
     go env
-    export GOPATH=/usr/local/go/hello-go
+    pwd
+    export GOPATH=/tmp/build/617e262f/hello-go
     cd hello-go/src/cognizant.com/codeblue
     pwd
     cd ..
