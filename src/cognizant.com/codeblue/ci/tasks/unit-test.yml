@@ -17,6 +17,7 @@ run:
   - -exc
   - |
     ls -ltr
+    go env
     export GOPATH=$HOME/hello-go
     cd hello-go/src/cognizant.com/codeblue
     glide up
