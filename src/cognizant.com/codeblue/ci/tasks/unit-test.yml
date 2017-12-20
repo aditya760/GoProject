@@ -22,6 +22,7 @@ run:
     export GOPATH=/tmp/build/617e262f/hello-go
     go env
     cd hello-go/src/cognizant.com/codeblue
+    brew install glide
     gilde up
     pwd
     cd ..
