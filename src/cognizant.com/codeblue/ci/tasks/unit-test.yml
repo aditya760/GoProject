@@ -18,7 +18,7 @@ run:
   - |
     ls -ltr
     apt-get update
-    apt install golang-glide
+    curl https://glide.sh/get | sh
     ls -ltr
     go env
     pwd
