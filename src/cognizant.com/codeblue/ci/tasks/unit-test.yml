@@ -19,13 +19,13 @@ run:
     ls -ltr
     go env
     pwd
-    export GOPATH=/tmp/build/617e262f/hello-go
+    export GOPATH=$PWD
+    go env
     cd hello-go/src/cognizant.com/codeblue
     apt install glide
-    
-    cd ..
-    cd ..
     pwd
+    cd ..
+    cd ..
     echo "START TESTING"
     go test cognizant.com/codeblue/test/
     echo "TEST DONE"
