@@ -21,7 +21,6 @@ run:
     pwd
     export GOPATH=$PWD/hello-go
     cd hello-go/src/cognizant.com/codeblue
-    apt-get update
     pwd
     cd ..
     cd ..
