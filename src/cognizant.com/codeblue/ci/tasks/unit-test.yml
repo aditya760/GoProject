@@ -21,6 +21,7 @@ run:
     pwd
     export GOPATH=$PWD/hello-go
     cd hello-go/src/cognizant.com/codeblue
+    glide up
     pwd
     cd ..
     cd ..
