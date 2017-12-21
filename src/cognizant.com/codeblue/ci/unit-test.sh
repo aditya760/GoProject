@@ -4,8 +4,8 @@
     ls -ltr
     go env
     pwd
-    export GOPATH=$PWD/hello-go
-    cd hello-go/src/cognizant.com/codeblue
+    export GOPATH=$PWD/autopcftes
+    cd autopcftes/src/cognizant.com/codeblue
     glide up
     pwd
     cd ..
