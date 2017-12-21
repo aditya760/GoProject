@@ -15,4 +15,4 @@ outputs:
 - name: coverage-results
 
 run:
-  path: autopcftest/src/cognizant.com/codeblue/ci/tasks/unit-test.sh
+  path: autopcftest/src/cognizant.com/codeblue/ci/scripts/unit-test.sh
