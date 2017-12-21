@@ -15,7 +15,8 @@ run:
   path: sh
   args:
   - -exc
-  - |
+  - apt-get update
+    apt install glide 
     ls -ltr
     go env
     pwd
