@@ -1,3 +1,5 @@
+# hello-go task-unit-tests.yml
+
 platform: linux
 
 image_resource:
@@ -7,7 +9,8 @@ image_resource:
     tag: 1.7.1
 
 inputs:
-- name: autopcftest
+- name: hello-go
+
 outputs:
 - name: coverage-results
 
