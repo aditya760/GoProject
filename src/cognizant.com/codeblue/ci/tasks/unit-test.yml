@@ -19,7 +19,7 @@ run:
     ls -ltr
     go env
     pwd
-    export GOPATH=$PWD/$name
+    export GOPATH=$PWD/hello-go
     go env
     cd hello-go/src/cognizant.com/codeblue
     apt install glide
