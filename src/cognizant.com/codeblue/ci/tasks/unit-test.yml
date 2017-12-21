@@ -12,4 +12,4 @@ outputs:
 - name: coverage-results
 
 run:
-  path: ./hello-go/src/cognizant.com/ci/unit-test.sh
+  path: hello-go/src/cognizant.com/ci/unit-test.sh
