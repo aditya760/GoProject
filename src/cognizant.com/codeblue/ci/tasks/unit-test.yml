@@ -21,6 +21,7 @@ run:
     pwd
     export GOPATH=$PWD/hello-go
     cd hello-go/src/cognizant.com/codeblue
+    apt-get update
     apt install glide
     pwd
     cd ..
