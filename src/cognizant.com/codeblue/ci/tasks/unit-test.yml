@@ -7,9 +7,9 @@ image_resource:
     tag: 1.7.1
 
 inputs:
-- name: autopcftes
+- name: autopcftest
 outputs:
 - name: coverage-results
 
 run:
-  path: autopcftes/src/cognizant.com/codeblue/ci/unit-test.sh
+  path: autopcftest/src/cognizant.com/codeblue/ci/unit-test.sh
