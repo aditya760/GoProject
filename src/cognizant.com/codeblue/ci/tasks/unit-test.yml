@@ -17,7 +17,6 @@ run:
   - -exc
   - |
     ls -ltr
-    glide --version
     go env
     pwd
     export GOPATH=$PWD/hello-go
