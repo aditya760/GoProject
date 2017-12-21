@@ -9,7 +9,7 @@
     go env
     pwd
     export GOPATH=$PWD/autopcftes
-    cd autopcftes/src/cognizant.com/codeblue
+    cd autopcftest/src/cognizant.com/codeblue
     glide up
     pwd
     cd ..
