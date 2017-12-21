@@ -7,7 +7,7 @@ image_resource:
     tag: 1.7.1
 
 inputs:
-- name: hello-go
+- name: autopcftes
 outputs:
 - name: coverage-results
 
