@@ -1,4 +1,4 @@
- set -e -x
+    set -e -x
     
     ls -ltr
     apt-get update
