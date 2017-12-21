@@ -1,3 +1,5 @@
+    #/bin/bash
+    #rest of script
     set -e -x
     
     ls -ltr
