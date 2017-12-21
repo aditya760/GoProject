@@ -1,3 +1,5 @@
+    set -e -x
+    
     ls -ltr
     apt-get update
     curl https://glide.sh/get | sh
